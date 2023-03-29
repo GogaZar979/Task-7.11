@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+/*header*/
+
+.header,
+.section_1,
+.section_5,
+.section_7 {
+    background-color: #eeeff1;
+    padding: 0;
+}
+
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1240px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+
+.nav_block {
+    display: flex;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.class_menu a:hover {
+    color: rgb(16, 124, 43);
+}
+
+.class_menu a {
+    color: black;
+}
+
+.class_menu {
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 3.5px 0px 0 45px;
+}
+
+.burger_menu {
+    display: none;
+    margin-top: 1px;
+    margin-left: 20px;
+}
+
+.burger_menu span {
+    display: block;
+    height: 7px;
+    width: 45px;
+    background-color: #34547a;
+}
+
+.burger_menu span:nth-child(2) {
+    margin: 5px 0;
+}
+
+/* Первый блок */
+
+.section_1 {
+    padding: 150px 0;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-block {
+    max-width: 540px;
+    font-size: 16.8px;
+
+}
+
+.frame {
+    padding-left: 90px;
+}
+
+.text-block {
+    padding-left: 10px;
+
+}
+
+.heading {
+    font-size: 45px;
+}
+
+.text {
+    margin: 45px 0;
+    line-height: 25px;
+    text-align: left;
+}
+
+.butt_one {
+    height: 65px;
+    width: 225px;
+    font-size: 20px;
+    background-color: #34547a;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.butt_one:hover {
+    background-color: #34549a;
+}
+
+/*Обо мне*/
+
+.section_2 {
+    padding: 100px 0;
+}
+
+.about_me {
+    font-size: 16.8px;
+    max-width: 540px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.ab_me {
+    font-size: 30px;
+}
+
+.Fish {
+    padding-top: 40px;
+    line-height: 25px;
+}
+
+/*Проекты*/
+
+.section_3 {
+    padding: 100px 0;
+    margin: 0 auto;
+    background-color: #34547a;
+}
+
+.element {
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.num_prog {
+    width: 141px;
+    height: 50px;
+}
+
+
+.element-projects {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Навыки*/
+
+.skill_menu {
+    padding: 100px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+progress {
+    height: 5px;
+    width: 445px;
+    background-position: #34547A;
+
+}
+
+.My {
+    font-size: 30px;
+    word-spacing: 4px;
+    letter-spacing: 0.5px;
+    padding-bottom: 50px;
+}
+
+p.skill {
+    flex-wrap: wrap-reverse;
+    margin-bottom: 20px;
+
+}
+
+.List {
+    line-height: 25px;
+}
+
+/*Работа*/
+
+.My_work {
+    padding: 100px 0;
+}
+
+.text-work {
+    font-size: 16.8px;
+    max-width: 540px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.resumeh1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.tables {
+    padding-top: 40px;
+    line-height: 25px;
+}
+
+.video {
+    padding-left: 35px;
+    padding-bottom: 0px;
+}
+
+.iframe {
+    width: 1110px;
+    height: 600px;
+    border: none;
+}
+
+/*Картинки*/
+
+.section_5 {
+    margin: 25px auto;
+}
+
+
+.first,
+.second {
+    display: flex;
+    background-color: rgba(52, 84, 122, 0.8);
+
+
+}
+
+.pick {
+    width: 480px;
+    height: 480px;
+    position: relative;
+    background-color: #f5eaea;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+
+.pick::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(67 137 220);
+    opacity: 0;
+    background-image: url(../img/eyse.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: opacity 0.3s;
+}
+
+.pick img {
+    max-width: 480px;
+    max-height: 480px;
+    position: absolute;
+
+
+}
+
+.pick:hover::after {
+    opacity: 0.4;
+}
+
+
+/*Шестой блок*/
+
+.section_6 {
+    padding: 20px 0 100px 0;
+    padding: 100px 0;
+    margin: auto;
+
+}
+
+.vick {
+    display: flex;
+    justify-content: center;
+}
+
+.Logos {
+    margin: 0 20px;
+}
+
+/*Блок ввода*/
+
+.section_7 {
+    padding: 100px 0;
+}
+
+.site div {
+    font-size: 16.8px;
+    max-width: 540px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Want {
+    font-size: 30px;
+}
+
+.Explane {
+    padding: 45px 0;
+    line-height: 23px;
+}
+
+
+.Final div {
+    width: 540px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.start_email {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.name {
+    padding-right: 15px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.email {
+    padding-left: 15px;
+}
+
+.first_block,
+.second_block {
+    padding-left: 20px;
+    width: 255px;
+    height: 50px;
+
+}
+
+
+.third_block {
+    width: 540px;
+    height: 175px;
+    padding-left: 20px;
+    padding-bottom: 120px
+}
+
+.sending {
+    margin-top: 40px;
+    padding-top: 30px;
+}
+
+.butt_2 {
+    height: 55px;
+    width: 195px;
+    font-size: 20px;
+    background-color: #34547a;
+    color: white;
+    cursor: pointer;
+}
+
+.butt_2:hover {
+    background-color: #34549a;
+}
+
+
+/*Подвал*/
+
+.footer {
+    padding: 40px 0;
+    background-color: #34547a;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block_end {
+    color: white;
+    line-height: 40px;
+}
+
+.copy {
+    font-size: 12px;
+}
+
+.info {
+    display: flex;
+}
+
+.vk {
+    margin: 0 10px;
+}

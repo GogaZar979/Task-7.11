@@ -1,0 +1,524 @@
+@media (max-width: 1850px) {
+    .pick {
+        min-width: 220px;
+        min-height: 220px;
+        max-width: 480px;
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .first img {
+        max-width: 400px;
+        max-height: 500px;
+        min-width: 400px;
+        min-height: 480px;
+
+    }
+
+    .second img {
+        max-width: 250px;
+        max-height: 250px;
+        min-width: 400px;
+        min-height: 480px;
+    }
+
+}
+
+@media (max-width: 1550px) {
+
+    .first img {
+        max-width: 400px;
+        max-height: 480px;
+        min-height: 480px;
+
+    }
+
+    .second img {
+        max-width: 400px;
+        max-height: 480px;
+        min-height: 480px;
+
+    }
+}
+
+
+@media (max-width: 1330px) {
+    .first img {
+        max-width: 0px;
+        max-height: 0px;
+        min-width: 330px;
+        min-height: 480px;
+
+    }
+
+    .second img {
+        max-width: 0px;
+        max-height: 0px;
+        min-width: 330px;
+        min-height: 480px;
+    }
+
+}
+
+
+@media (max-width: 1150px) {
+    .first img {
+
+        min-width: 290px;
+        min-height: 300px;
+
+    }
+
+    .second img {
+
+        min-width: 290px;
+        min-height: 300px;
+    }
+
+    .pick {
+        max-height: 0;
+    }
+
+    .video {
+        padding-left: 0px;
+
+    }
+
+    .num_prog img {
+        width: 141px;
+        height: 50px;
+        padding: 30px 0;
+    }
+
+    .WM img {
+        min-width: 220px;
+        max-width: 357px;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .menu {
+        margin: 0 auto;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .block {
+        display: block;
+        align-content: center;
+        margin: 0 auto;
+    }
+
+    .text-block {
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .frame,
+    .skilsimg {
+        text-align: center;
+        padding: 0;
+        margin: 0 auto 40px auto;
+    }
+
+    .skill_menu {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        display: block;
+        text-align: center;
+    }
+
+    .nav {
+        display: inline-block;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        padding-right: 50px;
+    }
+
+    .frame img,
+    progress,
+    .Character img {
+        width: 70vw;
+        min-width: 220px;
+        max-width: 357px;
+    }
+
+    .logo img {
+
+        display: inline-block;
+        padding-left: 70px;
+    }
+
+
+
+    .Characterg,
+    .List {
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .first img {
+
+        min-width: 250px;
+        min-height: 400px;
+
+    }
+
+    .second img {
+
+        min-width: 250px;
+        min-height: 300px;
+    }
+
+    .pick {
+        max-height: 300px;
+    }
+
+    .vick {
+        display: grid;
+    }
+
+
+    .iframe {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+
+@media (max-width: 650px) {
+
+    
+    .burger_menu {
+        display: block;
+        padding-right: 70px;
+        padding-top: 10px;
+    }
+
+    .nav_block {
+        display: none;
+    }
+
+    .logo img {
+        padding-top: 10px;
+
+    }
+
+    .num_prog img,
+    .element-projects {
+        display: inline-block;
+        padding-left: 35%
+    }
+
+    .first,
+    .second,
+    .pick img {
+        max-width: 480px;
+        min-width: 480px;
+        max-height: 300px;
+        min-height: 300px;
+        padding: 20px;
+        display: inline-table;
+
+    }
+
+    .first,
+    .second {
+        padding-left: 60px;
+        padding-right: 60px
+    }
+
+    .vick {
+        display: grid;
+    }
+
+
+
+    .start_email {
+        display: block;
+    }
+
+    .name {
+        padding: 0;
+    }
+
+    .email {
+        padding: 30px 0 0 0;
+    }
+
+    .third_block {
+        width: 255px;
+    }
+
+    .footer2 {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .info li {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .information {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .burger_menu {
+        display: block;
+        padding-right: 70px;
+        padding-top: 10px;
+    }
+
+    .nav_block {
+        display: none;
+    }
+
+
+    .text,
+    .Fish {
+        padding: 50px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        line-height: 25px;
+    }
+
+    .Explane,
+    .table {
+        padding: 50px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        line-height: 25px;
+    }
+
+    .List {
+        padding: 20px;
+    }
+
+    .frame {
+        padding-top: 0px;
+    }
+
+    .iframe {
+        min-width: 450px;
+        min-height: 400px;
+    }
+
+    .first,
+    .second {
+        display: inline;
+        background-color: #dddddd38;
+
+    }
+
+    .first,
+    .second {
+        padding: 0px;
+    }
+
+    .first,
+    .second {
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+
+    .pick::after {
+        max-width: 480px;
+    }
+
+    .heading,
+    .me,
+    .skills-my {
+        font-size: 25px;
+    }
+
+    .resumeh1,
+    .Want {
+        font-size: 20px;
+    }
+
+    .third_block {
+        width: 255px;
+    }
+
+    .name {
+        padding: 0;
+    }
+
+    .email {
+        padding: 20px 0 0 0;
+    }
+
+    .first_block,
+    .second_block,
+    .third_block {
+        margin-left: 0px;
+        margin-right: 100px;
+
+    }
+
+    .footer2 {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .info li {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .information {
+        padding-top: 40px;
+    }
+
+}
+
+
+
+@media (max-width: 320px) {
+
+    .video,
+    .iframe {
+        padding-bottom: 40%;
+        height: 10px;
+        overflow: hidden;
+    }
+
+    .burger_menu {
+        display: block;
+        padding-right: 70px;
+        padding-top: 10px;
+    }
+
+    .nav_block {
+        display: none;
+    }
+
+
+    .text,
+    .Fish {
+        padding: 50px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        line-height: 25px;
+    }
+
+    .Explane,
+    .table {
+        padding: 50px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        line-height: 25px;
+    }
+
+    .List {
+        padding: 30;
+    }
+
+    .frame {
+        padding-top: 0px;
+    }
+
+    .num_prog img,
+    .element-projects {
+        display: inline-block;
+        padding-left: 25%;
+    }
+
+    .logo img {
+        padding-left: 40px;
+    }
+
+    .List {
+        padding-left: 10px;
+    }
+
+    .heading,
+    .me,
+    .skills-my {
+        font-size: 25px;
+    }
+
+    .first img {
+        max-width: 200px;
+        max-height: 320px;
+        min-width: 320px;
+        min-height: 320px;
+
+    }
+
+    .second img {
+        max-width: 200px;
+        max-height: 320px;
+        min-width: 320px;
+        min-height: 320px;
+    }
+
+    .pick::after {
+        max-width: 320px;
+    }
+
+    .pick {
+        max-width: 320px;
+    }
+
+    .resumeh1,
+    .Want {
+        font-size: 20px;
+    }
+
+    .third_block {
+        width: 205px;
+    }
+
+    .name {
+        width: 20px;
+    }
+
+    .email {
+        padding: 20px 0 0 0;
+    }
+
+    .first_block {
+        width: 205px;
+    }
+
+    .second_block {
+        width: 205px;
+    }
+
+    .first_block,
+    .second_block,
+    .third_block {
+        margin-left: 0px;
+        margin-right: 260px;
+
+    }
+
+    .footer2 {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .info li {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .information {
+        padding-top: 40px;
+    }
+
+}
